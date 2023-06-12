@@ -1,0 +1,11 @@
+1) Interface AvaliacaoStrategica: interface que define o contrato para as diferentes estratégias de avaliação. Ela possui um único método realizarAvaliacao() que retorna um valor de ponto flutuante (nota).
+
+2) Classe Aluno: Essa classe representa um aluno. Ela possui um atributo estrategia do tipo AvaliacaoStrategy, que representa a estratégia de avaliação escolhida pelo aluno.
+
+3) Classe AvaliacaoPorProvas: Esta classe implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por provas. No método realizarAvaliacao(), é simulado o cálculo de uma nota fictícia obtida na prova.
+
+4) Cllasse AvaliacaoPorTrabalhosEmGrupo: Esta classe também implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por trabalhos em grupo.
+
+5) AvaliacaoPorProjetosIndividuais: Esta classe também implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por projetos individuais.
+
+6) Casos de Testes AvaliacaoTest: Esta classe contém os casos de teste JUnit para as implementações do padrão Strategy e cada método de teste representa um caso de teste específico.
