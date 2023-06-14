@@ -4,7 +4,7 @@
 
 3) Classe AvaliacaoPorProvas: Esta classe implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por provas. No método realizarAvaliacao(), é simulado o cálculo de uma nota fictícia obtida na prova.
 
-4) Cllasse AvaliacaoPorTrabalhosEmGrupo: Esta classe também implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por trabalhos em grupo.
+4) Classe AvaliacaoPorTrabalhosEmGrupo: Esta classe também implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por trabalhos em grupo.
 
 5) AvaliacaoPorProjetosIndividuais: Esta classe também implementa a interface AvaliacaoStrategy e representa a estratégia de avaliação por projetos individuais.
 
